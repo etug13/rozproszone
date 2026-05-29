@@ -14,5 +14,8 @@ $(BIN): $(OBJ)
 run: $(BIN)
 	mpirun -np 5 ./$(BIN)
 
+run2: $(BIN)
+	mpirun --hostfile hostfile -np 5 ./$(BIN)
+
 clean:
 	rm -f $(OBJ) $(BIN)
