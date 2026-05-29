@@ -1,0 +1,172 @@
+[4] [t0] Spie
+[2] [t0] Spie
+[1] [t0] Spie
+[0] [t0] Spie
+[3] [t0] Spie
+[2] [t1] Rozpoczynam staranie o miejsce w busie
+[2] [t1] Wybralem bus 0, zamowienie 1
+[0] [t3] REQ od 2 do busa 0 (order=1), odeslalem ACK
+[1] [t3] REQ od 2 do busa 0 (order=1), odeslalem ACK
+[3] [t3] REQ od 2 do busa 0 (order=1), odeslalem ACK
+[4] [t3] REQ od 2 do busa 0 (order=1), odeslalem ACK
+[1] [t4] Rozpoczynam staranie o miejsce w busie
+[1] [t4] Wybralem bus 0, zamowienie 2
+[0] [t6] REQ od 1 do busa 0 (order=2), odeslalem ACK
+[2] [t9] REQ od 1 do busa 0 (order=2), odeslalem ACK
+[2] [t9] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[3] [t6] REQ od 1 do busa 0 (order=2), odeslalem ACK
+[4] [t6] REQ od 1 do busa 0 (order=2), odeslalem ACK
+[4] [t7] Rozpoczynam staranie o miejsce w busie
+[4] [t7] Wybralem bus 0, zamowienie 1
+[0] [t9] REQ od 4 do busa 0 (order=1), odeslalem ACK
+[1] [t14] REQ od 4 do busa 0 (order=1), odeslalem ACK
+[1] [t14] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[2] [t11] REQ od 4 do busa 0 (order=1), odeslalem ACK
+[3] [t9] REQ od 4 do busa 0 (order=1), odeslalem ACK
+[0] [t10] Rozpoczynam staranie o miejsce w busie
+[0] [t10] Wybralem bus 1, zamowienie 2
+[1] [t16] REQ od 0 do busa 1 (order=2), odeslalem ACK
+[2] [t13] REQ od 0 do busa 1 (order=2), odeslalem ACK
+[3] [t12] REQ od 0 do busa 1 (order=2), odeslalem ACK
+[4] [t19] REQ od 0 do busa 1 (order=2), odeslalem ACK
+[3] [t13] Rozpoczynam staranie o miejsce w busie
+[3] [t13] Wybralem bus 0, zamowienie 1
+[0] [t22] REQ od 3 do busa 0 (order=1), odeslalem ACK
+[0] [t22] Jestem kierowca - lista pasazerow ostateczna
+[0] [t22] Bus pelny/popyt wyczerpany - jade po towar
+[1] [t18] REQ od 3 do busa 0 (order=1), odeslalem ACK
+[1] [t24] ARRIVED od kierowcy 0, bus 1
+[1] [t28] ARRIVED od kierowcy 3, bus 0
+[2] [t15] REQ od 3 do busa 0 (order=1), odeslalem ACK
+[2] [t24] ARRIVED od kierowcy 0, bus 1
+[1] [t28] Wysiadam z busa (wychodze z sekcji krytycznej)
+[3] [t26] Jestem kierowca - lista pasazerow ostateczna
+[3] [t26] Bus pelny/popyt wyczerpany - jade po towar
+[2] [t28] ARRIVED od kierowcy 3, bus 0
+[2] [t28] Wysiadam z busa (wychodze z sekcji krytycznej)
+[2] [t28] Spie
+[4] [t21] REQ od 3 do busa 0 (order=1), odeslalem ACK
+[4] [t21] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[4] [t24] ARRIVED od kierowcy 0, bus 1
+[4] [t28] ARRIVED od kierowcy 3, bus 0
+[4] [t28] Wysiadam z busa (wychodze z sekcji krytycznej)
+[0] [t23] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[0] [t28] ARRIVED od kierowcy 3, bus 0
+[0] [t28] Spie
+[1] [t28] Spie
+[3] [t27] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[3] [t28] ARRIVED od kierowcy 0, bus 1
+[4] [t28] Spie
+[3] [t28] Spie
+[0] [t29] Rozpoczynam staranie o miejsce w busie
+[0] [t29] Wybralem bus 1, zamowienie 3
+[1] [t31] REQ od 0 do busa 1 (order=3), odeslalem ACK
+[2] [t31] REQ od 0 do busa 1 (order=3), odeslalem ACK
+[3] [t31] REQ od 0 do busa 1 (order=3), odeslalem ACK
+[4] [t31] REQ od 0 do busa 1 (order=3), odeslalem ACK
+[1] [t32] Rozpoczynam staranie o miejsce w busie
+[1] [t32] Wybralem bus 0, zamowienie 1
+[0] [t37] REQ od 1 do busa 0 (order=1), odeslalem ACK
+[2] [t34] REQ od 1 do busa 0 (order=1), odeslalem ACK
+[3] [t34] REQ od 1 do busa 0 (order=1), odeslalem ACK
+[4] [t34] REQ od 1 do busa 0 (order=1), odeslalem ACK
+[2] [t35] Rozpoczynam staranie o miejsce w busie
+[2] [t35] Wybralem bus 1, zamowienie 2
+[1] [t43] REQ od 2 do busa 1 (order=2), odeslalem ACK
+[3] [t37] REQ od 2 do busa 1 (order=2), odeslalem ACK
+[0] [t39] REQ od 2 do busa 1 (order=2), odeslalem ACK
+[0] [t39] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[4] [t37] REQ od 2 do busa 1 (order=2), odeslalem ACK
+[3] [t38] Rozpoczynam staranie o miejsce w busie
+[3] [t38] Wybralem bus 0, zamowienie 4
+[0] [t41] REQ od 3 do busa 0 (order=4), odeslalem ACK
+[1] [t45] REQ od 3 do busa 0 (order=4), odeslalem ACK
+[1] [t45] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[2] [t48] REQ od 3 do busa 0 (order=4), odeslalem ACK
+[4] [t40] REQ od 3 do busa 0 (order=4), odeslalem ACK
+[4] [t41] Rozpoczynam staranie o miejsce w busie
+[4] [t41] Wybralem bus 2, zamowienie 2
+[0] [t43] REQ od 4 do busa 2 (order=2), odeslalem ACK
+[1] [t47] REQ od 4 do busa 2 (order=2), odeslalem ACK
+[1] [t52] ARRIVED od kierowcy 2, bus 1
+[2] [t50] REQ od 4 do busa 2 (order=2), odeslalem ACK
+[2] [t50] Jestem kierowca - lista pasazerow ostateczna
+[2] [t50] Bus pelny/popyt wyczerpany - jade po towar
+[0] [t52] ARRIVED od kierowcy 2, bus 1
+[0] [t52] Wysiadam z busa (wychodze z sekcji krytycznej)
+[0] [t52] Spie
+[2] [t51] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[3] [t52] REQ od 4 do busa 2 (order=2), odeslalem ACK
+[3] [t52] Jestem kierowca - lista pasazerow ostateczna
+[3] [t52] Bus pelny/popyt wyczerpany - jade po towar
+[2] [t54] ARRIVED od kierowcy 3, bus 0
+[4] [t53] Jestem kierowca - lista pasazerow ostateczna
+[4] [t53] Bus pelny/popyt wyczerpany - jade po towar
+[1] [t54] ARRIVED od kierowcy 3, bus 0
+[1] [t54] Wysiadam z busa (wychodze z sekcji krytycznej)
+[1] [t55] ARRIVED od kierowcy 4, bus 2
+[0] [t54] ARRIVED od kierowcy 3, bus 0
+[0] [t55] ARRIVED od kierowcy 4, bus 2
+[2] [t55] ARRIVED od kierowcy 4, bus 2
+[3] [t53] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[3] [t54] ARRIVED od kierowcy 2, bus 1
+[3] [t55] ARRIVED od kierowcy 4, bus 2
+[4] [t54] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[4] [t55] ARRIVED od kierowcy 3, bus 0
+[4] [t56] ARRIVED od kierowcy 2, bus 1
+[2] [t55] Spie
+[1] [t55] Spie
+[3] [t55] Spie
+[4] [t56] Spie
+[1] [t56] Rozpoczynam staranie o miejsce w busie
+[1] [t56] Wybralem bus 2, zamowienie 4
+[0] [t58] REQ od 1 do busa 2 (order=4), odeslalem ACK
+[2] [t58] REQ od 1 do busa 2 (order=4), odeslalem ACK
+[3] [t58] REQ od 1 do busa 2 (order=4), odeslalem ACK
+[4] [t58] REQ od 1 do busa 2 (order=4), odeslalem ACK
+[4] [t59] Rozpoczynam staranie o miejsce w busie
+[4] [t59] Wybralem bus 0, zamowienie 3
+[0] [t61] REQ od 4 do busa 0 (order=3), odeslalem ACK
+[1] [t64] REQ od 4 do busa 0 (order=3), odeslalem ACK
+[2] [t61] REQ od 4 do busa 0 (order=3), odeslalem ACK
+[3] [t61] REQ od 4 do busa 0 (order=3), odeslalem ACK
+[2] [t62] Rozpoczynam staranie o miejsce w busie
+[2] [t62] Wybralem bus 2, zamowienie 4
+[0] [t64] REQ od 2 do busa 2 (order=4), odeslalem ACK
+[1] [t66] REQ od 2 do busa 2 (order=4), odeslalem ACK
+[1] [t66] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[3] [t64] REQ od 2 do busa 2 (order=4), odeslalem ACK
+[4] [t68] REQ od 2 do busa 2 (order=4), odeslalem ACK
+[0] [t65] Rozpoczynam staranie o miejsce w busie
+[0] [t65] Wybralem bus 2, zamowienie 4
+[1] [t68] REQ od 0 do busa 2 (order=4), odeslalem ACK
+[2] [t71] REQ od 0 do busa 2 (order=4), odeslalem ACK
+[3] [t67] REQ od 0 do busa 2 (order=4), odeslalem ACK
+[4] [t70] REQ od 0 do busa 2 (order=4), odeslalem ACK
+[3] [t68] Rozpoczynam staranie o miejsce w busie
+[3] [t68] Wybralem bus 2, zamowienie 3
+[0] [t76] REQ od 3 do busa 2 (order=3), odeslalem ACK
+[2] [t73] REQ od 3 do busa 2 (order=3), odeslalem ACK
+[2] [t73] Jestem kierowca - lista pasazerow ostateczna
+[2] [t73] Bus pelny/popyt wyczerpany - jade po towar
+[2] [t74] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[0] [t77] ARRIVED od kierowcy 2, bus 2
+[0] [t77] Jestem na busie (w sekcji krytycznej) - czekam na kierowce
+[0] [t78] ARRIVED od kierowcy 4, bus 0
+[1] [t70] REQ od 3 do busa 2 (order=3), odeslalem ACK
+[1] [t75] ARRIVED od kierowcy 2, bus 2
+[1] [t75] Wysiadam z busa (wychodze z sekcji krytycznej)
+[1] [t76] ARRIVED od kierowcy 4, bus 0
+[3] [t81] ARRIVED od kierowcy 2, bus 2
+[4] [t72] REQ od 3 do busa 2 (order=3), odeslalem ACK
+[4] [t72] Jestem kierowca - lista pasazerow ostateczna
+[4] [t72] Bus pelny/popyt wyczerpany - jade po towar
+[2] [t75] ARRIVED od kierowcy 4, bus 0
+[4] [t73] Wrocilem i rozdalem towar (wychodze z sekcji krytycznej)
+[4] [t75] ARRIVED od kierowcy 2, bus 2
+[3] [t82] ARRIVED od kierowcy 4, bus 0
+[1] [t76] Spie
+[2] [t75] Spie
+[4] [t75] Spie
+Abort is in progress...hit ctrl-c again to forcibly terminate
+
