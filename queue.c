@@ -1,12 +1,10 @@
 #include "common.h"
 
-/* czy a ma wyzszy priorytet niz b: mniejsze (ts, id) */
 static int higher(req_t a, req_t b) {
     if (a.ts != b.ts) return a.ts < b.ts;
     return a.id < b.id;
 }
 
-/* wstaw zachowujac sortowanie po (ts, id) */
 void q_insert(int b, int ts, int id, int order) {
     req_t e = { ts, id, order };
     int i = qlen[b];
@@ -33,7 +31,6 @@ int q_find_pos(int b, int id) {
     return -1;
 }
 
-/* suma zamowien wpisow przed pozycja pos (wyzszy priorytet) */
 int load_before(int b, int pos) {
     int i, s = 0;
     for (i = 0; i < pos; i++)

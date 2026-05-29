@@ -1,13 +1,11 @@
 #include "common.h"
 #include <stdarg.h>
 
-/* zdarzenie lokalne / wyslanie */
 int tick(void) {
     clock_l++;
     return clock_l;
 }
 
-/* odbior wiadomosci */
 void clock_update(int ts) {
     if (ts > clock_l) clock_l = ts;
     clock_l++;
