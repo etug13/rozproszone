@@ -17,6 +17,7 @@
 #define MAX_Q    256
 
 #define DEBUG 1
+#define LOG_DELAY_MS 300
 
 #define MSG_REQ     1
 #define MSG_ACK     2
